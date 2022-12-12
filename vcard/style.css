@@ -1,0 +1,73 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin-top: 60px;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.testimonial-card .card-up {
+    height: 280px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    }
+    
+    .testimonial-card .avatar {
+    width: 150px;
+    margin-top: -80px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    }
+    .card-up{
+        background-image: url("./image\ 1.png");
+       background-repeat: no-repeat;
+       background-size: cover;   
+    }
+    .share{
+        height:30px;
+        width:30px;
+    }
+    .social{
+        height:40px;
+        width:40px;
+    }
+    .appointment{
+        margin-top: 50px;
+    }
+    .mini-appointment{
+        border-radius: 10px;
+        background-color: #444ad3;
+        height:130px;
+        margin-right: 50px;
+    }
+    .calender{
+        width:30px;
+        height:30px;
+    }
+
+    .services .card{
+        height:150px;
+        width:150px;
+        background-color: #444ad3;
+        border-radius: 20px;
+    }
+    .service-card{
+        height:40px;
+        width:40px;
+        
+        
+    }
+    .card-img-top{
+        height:50px;
+    }
+
+    @media  (max-width:500px) and (min-width:100px){
+        body{
+            display: block;
+        }
+    }
+    
